@@ -1,10 +1,10 @@
 # web/fancier-page
-
+## Description
 > No description.
 
 > Flag: flag{prototype_pollution_kills_thousands_of_websites_each_year}
 
-# How to solve
+## How to solve
 There is 'report to admin' feature on this website. So, there must be XSS things. If we look at the `/app/scripts/display.js` there is 2 imported js module(Arg-js and insane-js). 
 ```
 import { default as Arg } from "https://cdn.jsdelivr.net/npm/@vunamhung/arg.js@1.4.0/+esm";
